@@ -1,5 +1,5 @@
 body {
-  background: #181f38;
+  background: #fbfcff;
   font-family: 'Roboto-Condensed';
   color: white;
   font-size: .7em;
@@ -40,7 +40,7 @@ hr {
 
 figure {
     background-color: rgba(255,255,253,.05);
-    padding: 10px 10px 30px;
+    padding: 5px 5px 5px;
 }
 
 figure p {
