@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Listening - The 8-Agency</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed400&subset=latin,latin-ext" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <h1>The 8-Agency</h1>
+      <p>Social Listening<br><strong>Google Cloud</strong></p>
+        <section class="cols-2">
+            <figure>
+                <p>Bar Plot</p>
+                <h3>Frequent topics</h3>
+                <canvas id='myChart' height="400"></canvas>
+              <p><strong>Python</strong> is the most popular programming language in 2021 and 2020. Appears in 350 questions asked in Stack Overflow. 
+            </figure>
+
+            <figure>
+                <p>Time Series</p>
+                <h3>Topics on the time</h3>
+                <canvas id="chart2" height="400"></canvas>
+              <p><strong>Python</strong> is the only language that grows in its use while <strong>Javascript</strong> collapses in Google Cloud. </p>
+            </figure>
+          
+        </section>
+
+        <section class="cols-1">
+            <figure>
+                <p>Area chart</p>
+                <h3>Popular technologies in Google Cloud</h3>
+                <canvas id="chart6" height="600"></canvas>
+              <p><strong>Machine Learning</strong> is the most used technology in Google Cloud. <strong>Deep Learning</strong> is on the rise and <strong>AI</strong> is falling </p>
+            </figure>
+        </section>
+
+        <section class="cols-3">
+            <figure>
+                <p>Pie Chart</p>
+                <h3>Sentiment Analysis</h3>
+                <canvas id="chart3" height="400"></canvas>
+              <p><strong>70%</strong> of conversations about Google Cloud are positive. Only <strong>10%</strong> are negative</p>
+            </figure>
+
+            <figure>
+                <p>Radar chart</p>
+                <h3>Valoration</h3>
+                <canvas id="chart4", height="400"></canvas>
+            </figure>
+
+            
+        </section>
+
+    </main>
+
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <!-- Styles for charts -->
+    <script src="js/chartStyles.js"></script>
+
+    <!-- DCharts development -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
